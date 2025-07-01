@@ -34,11 +34,11 @@ else:
         format="%.3f"
     )
 
-# Distance input with 1 m step
+# Distance input with 1 m step and updated max range
 distance = st.number_input(
     "Distance to observer (m)",
     min_value=1.0,
-    max_value=10000.0,
+    max_value=20000.0,
     value=140.0,
     step=1.0,
     format="%.1f"
